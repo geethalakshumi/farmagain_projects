@@ -799,14 +799,14 @@ motor8=(e)=>{
       <table class="table table-striped mt-3">
   <tbody>
     <tr>
-      <th scope="row">Filter Motor Value </th>
+      <th scope="row">Filter Motor Valve </th>
       <td><label class="switch">
   <input type="checkbox" id="1" checked={this.state.motor1}  onChange={this.motor1} />
   <span class="slider round"></span>
     </label> </td>
     </tr>
     <tr>
-      <th scope="row">Ozone Motor Value </th>
+      <th scope="row">Ozone Motor Valve </th>
       <td><label class="switch">
   <input type="checkbox" id="2" checked={this.state.motor2}  onChange={this.motor2}/>
   <span class="slider round"></span>
